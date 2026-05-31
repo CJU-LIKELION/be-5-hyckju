@@ -1,0 +1,19 @@
+# === IntelliJ IDEA 관련 설정 파일 제외 ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === 빌드 및 컴파일 출력물(프로덕션 파일) 제외 ===
+production/
+*.class
+
+# === OS 생성 임시 파일 제외 ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
